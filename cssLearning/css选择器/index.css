@@ -1,0 +1,33 @@
+/* 通用选择符 */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* 元素选择符 */
+body{
+    background: #666666
+}
+h2{
+    color:aqua 
+}
+
+/* 类选择符与元素选择符搭配 */
+h2.warning{
+    color: red
+}
+
+.urgent{
+    font-weight: bold 
+}
+
+#important{
+    color: blueviolet
+}
+
+span[class]{
+    color: rgb(25, 116, 196)
+}
+
+input[type="button"]{
+    border: 2px solid red
+}
