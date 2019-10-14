@@ -1,33 +1,67 @@
 /* 通用选择符 */
-*{
+
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 /* 元素选择符 */
-body{
+
+body {
     background: #666666
 }
-h2{
-    color:aqua 
+
+p#p1{white-space: pre}
+p#p2{white-space: nowrap}
+p#p3{white-space: normal;}
+
+h2 {
+    color: aqua
 }
 
 /* 类选择符与元素选择符搭配 */
-h2.warning{
+
+h2.warning {
     color: red
 }
 
-.urgent{
-    font-weight: bold 
+.urgent {
+    font-weight: bold
 }
 
-#important{
+#important {
     color: blueviolet
 }
 
-span[class]{
+span[class] {
     color: rgb(25, 116, 196)
 }
 
-input[type="button"]{
+input[type="button"] {
     border: 2px solid red
+}
+
+h2 em {
+    font-size: 20px
+}
+
+/* 动态伪类 */
+
+a:link {
+    color: navy
+}
+
+a:visited {
+    color: gray
+}
+
+a:focus {
+    color: orange
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: yellow
 }
